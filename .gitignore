@@ -1,0 +1,19 @@
+# Credenciais — NUNCA commitar
+.env
+*.env
+!.env.example
+
+# Logs e locks
+*.log
+*.lock
+saida.txt
+cron.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Mac
+.DS_Store
