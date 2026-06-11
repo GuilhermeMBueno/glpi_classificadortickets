@@ -1,5 +1,9 @@
 # GLPI Classificador IA
 
+CUIDADO.
+OBS: Ao usar este recurso use uma LLM local para não ter incidentes de vazamento de informações pois a IA conectada deste projeto é a Gemini em sua versão gratuita, podendo expor dados. 
+
+
 Daemon em Python que **classifica chamados novos do GLPI automaticamente** usando IA (Google Gemini).
 
 Toda vez que entra um chamado sem **categoria** e sem **localização**, o script lê o título e a descrição (normalmente o corpo de um e-mail, com assinatura), pergunta ao modelo qual a categoria e o setor mais prováveis e atualiza o ticket — registrando uma nota de acompanhamento privada com a justificativa da decisão.
